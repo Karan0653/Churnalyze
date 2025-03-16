@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(179, 235, 233, 1) 0%,
+    rgba(228, 250, 255, 1) 100%
+  );
+}
+
+.container {
+  margin: 50px 50px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(66, 160, 160);
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-row {
+  padding: 20px 10px;
+  margin: 15px 0;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select,
+input {
+  width: 50%;
+  padding: 5px 2px;
+  border-radius: 5px;
+  border: 2px solid rgb(199, 197, 197);
+}
+
+.submit-btn {
+  margin: 15px 0;
+  padding: 10px 0;
+  width: 100%;
+  color: rgb(66, 160, 160);
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background: rgb(237, 244, 244);
+}
+
+/* prediction */
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.res-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.res-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.back-btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.back-btn:hover {
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
